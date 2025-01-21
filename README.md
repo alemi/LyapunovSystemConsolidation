@@ -1,3 +1,17 @@
+## Code to accompany the paper 'A Lyapunov theory demonstrating a fundamental limit on the speed of systems consolidation'
+
+The code was written and tested in MATLAB R2021a on MacOS. 
+
+To generate the results in Figure 1, set the variables 'SimulMode' and 'perturbCASE' appropriately in mainFig1.m. The MATLAB Simulink enviornment is needed. Now run the script:
+>> mainFig1
+
+To generate the neural integrator's simulation results in Figure 4E, run:
+>> mainFig4_rel
+
+To generate the Fig 4D, set flipflg=0.
+
+
+
 ## License
 
 This software is licensed under a **Custom Non-Commercial License**.
